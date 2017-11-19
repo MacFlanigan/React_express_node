@@ -1,4 +1,9 @@
+import App from '../components/App';
+
 ReactDOM.render(
-  <h2>HELLO JSX !</h2> ,
+  <div>
+    <h2>HELLO JSX !!!</h2>
+    <App name={"Marcel"}/>
+  </div> ,
   document.getElementById("root")
 );
