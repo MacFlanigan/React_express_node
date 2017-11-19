@@ -1,0 +1,24 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "Pro",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -wd"
+  },
+  "keywords": [],
+  "author": "MacFlanigan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.16.2",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
