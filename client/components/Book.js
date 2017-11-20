@@ -2,7 +2,7 @@
 const React = require('react');
 const Book = (props) => {
   return (
-    <div>
+    <div onClick={() => props.onClick(props.id)}>
       <p>
         Author: {props.author}<br/>
         Title: {props.title}<br/>

@@ -6,7 +6,7 @@ const BookList = (props) => {
   return(
     <div>
       {props.books.map(book =>
-        <Book {...book} key={book.id} />
+        <Book {...book} key={book.id} onClick={props.onBookClick}/>
       )}
     </div>
   );
